@@ -2,6 +2,14 @@ package org.dsa.step1.one_4_basicmath;
 
 import org.dsa.util.Util;
 
+/**
+ * Check if a number is Armstrong Number or not
+ * Problem Statement: Given a number, check if it is Armstrong Number or Not.
+ * Example 1:
+ * Input:153
+ * Output: Yes, it is an Armstrong Number
+ * Explanation: 1^3 + 5^3 + 3^3 = 153
+ */
 public class ArmstrongNumber {
 
     public static boolean isArmstrong(int number) {
